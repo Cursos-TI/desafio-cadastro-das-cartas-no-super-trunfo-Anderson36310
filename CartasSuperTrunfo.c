@@ -18,30 +18,29 @@ int main(){
    int populacao;
    float pib;
    float area;
-   char nome[20];
+   char letra[20];
 
-    printf("Digite o Código da Cidade:\n");
+     printf("Digite o nome da Cidade: \n");
+    scanf("%s", &letra);
+    printf("Digite o Código da Cidade: \n");
     scanf("%d", &codcidade);
-
-    printf("Digite a quantidade de pontos Turisticos:\n");
+    printf("Digite a quantidade de pontos Turisticos: \n");
     scanf("%d", &pontosturisticos);
-
-    printf("Digite a quantidade da população: \n ");
+    printf("Digite a quantidade da população: \n");
     scanf("%d", &populacao);
-
     printf("Digite o Pib da Cidade: \n");
     scanf("%f", &pib);
-
     printf("Digite a área em KM: \n");
     scanf("%f", &area);
-
-    printf("Digite o nome da Cidade: \n");
-    scanf("%s", &nome);
-
-    printf("Código da Cidade: %d - Quantiade de Pontos Turisticos: %d\n", codcidade, pontosturisticos);
-    printf("População: %d - Pib: %f\n", populacao, pib);
+   
+    printf("Nome da Cidade: %s", letra);
+    printf("Código da Cidade: %d\n", codcidade);
+    printf("Pontos Turisticos: %d\n", pontosturisticos);
+    printf("População: %d\n", populacao);
+    printf("Pib: %f\n", pib);
     printf("Area em KM: %f\n", area);
-    printf("Nome da Cidade: %s\n", nome);
+    
+
 
     return 0;
 
