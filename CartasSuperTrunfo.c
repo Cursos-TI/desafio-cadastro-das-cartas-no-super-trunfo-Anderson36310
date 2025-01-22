@@ -13,6 +13,16 @@
 
 int main(){
    
+    char nome[20];
+    int cod_cidade;
+    int populacao;
+    int pontos;
+    double area;
+    double pib;
+
+    printf("Olá! Seja Bem vindo ao jogo de cartas Super Trunfo! Vamos começar...")
+    printf("Digite o Nome da sua cidade: ")
+    
 
 
 
