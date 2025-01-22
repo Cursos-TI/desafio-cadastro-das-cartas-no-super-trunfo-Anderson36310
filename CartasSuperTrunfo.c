@@ -13,23 +13,23 @@
 
 int main(){
    
-    char nome[20];
-    int cod_cidade;
+    char estado;
+    char nome_cidade[20];
+    char cod_carta[20];
     int populacao;
-    int pontos;
-    double area;
-    double pib;
+    int pontos_turisticos;
+    float area;
+    float pib;
 
-    printf("Olá! Seja Bem vindo ao jogo de cartas Super Trunfo! Vamos começar...")
-    printf("Digite o Nome da sua cidade: ")
-    
+    printf("Olá! Seja Bem vindo ao jogo de cartas Super Trunfo! Vamos começar...\n");
+    printf("Digite o Estado: ");
+    scanf("%c\n", &estado);
 
+    printf("Digite o Nome da Cidade: ");
+    scanf("%s\n", nome_cidade);
 
-
-
-
-
-
+    printf("Digite o Código da carta: ");
+    scanf("%s\n", cod_carta);
 
 
 
