@@ -44,14 +44,15 @@ int main(){
     printf("Digite o Pib da Cidade: ");
     scanf("%f", &pib);
 
-    // Dados a serem mostrados para o usuário
+    // Dados a serem mostrados para o usuário Carta 1
     printf("Estes são os dados da primeira carta \n");
     printf("Estado:%s\n", estado);
     printf("Cidade:%s\n", cidade);
     printf("Cód.Carta:%s\n", cod_carta);
     printf("População:%d\n", populacao);
     printf("Pontos Turisticos:%d\n", pontos_turisticos);
-    printf("Aréa em KM:%f\n");
+    printf("Aréa em KM:%f\n", area);
+    printf("Pib:%f\n", pib);
 
     return 0;
 
