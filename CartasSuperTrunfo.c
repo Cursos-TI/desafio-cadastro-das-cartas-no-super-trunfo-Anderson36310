@@ -31,6 +31,17 @@ int main(){
     printf("Digite o Código da carta: ");
     scanf("%s\n", cod_carta);
 
+    printf("Digite o número da população: ");
+    scanf("%d\n", &populacao);
+
+    printf("Digite a quantidade de pontos Turísticos: ");
+    scanf("%d\n", &pontos_turisticos);
+
+    printf("Digite o tamanho da área em KM: ");
+    scanf("%f\n", &area);
+
+    printf("Digite o Pib da Cidade: ");
+    scanf("%f\n", &pib);
 
 
 }
