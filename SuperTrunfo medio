@@ -1,0 +1,96 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+   
+char estado1 = 'A';
+int cidade1 = 1, cidade2 = 2, cidade3 = 3, cidade4 = 4;
+float area1, area2, area3, area4; 
+float pib1, pib2, pib3, pib4;
+float populacao1, populacao2, populacao3, populacao4;
+float densidade1, densidade2, densidade3, densidade4;
+int pontosturisticos1, pontosturisticos2, pontosturisticos3, pontosturisticos4;
+float pibdividio1, pibdividio2, pibdividio3, pibdividio4;
+
+//Primeira carta Cidade 1
+printf("Seja Bem vindo ao jogo de cartas Super Trunfo!\n");
+printf("Para começar digite os atributos para a primeira carta logo abaixo... \n\n");
+printf("Cidade %c%d\n", estado1, cidade1);
+printf("Digite a quantidade da população: ");
+scanf("%f", &populacao1);
+printf("Digite o tamanho da Área em Km: ");
+scanf("%f", &area1);
+printf("Digite o Pib: ");
+scanf("%f", &pib1);
+printf("Digite a quantidade de pontos turísticos: ");
+scanf("%d", &pontosturisticos1);
+
+//Segunda carta Cidade 2
+printf("\nDigite os atributos da segunda carta: \n\n");
+printf("Cidade %c%d\n", estado1, cidade2);
+printf("Digite a quantidade da população: ");
+scanf("%f", &populacao2);
+printf("Digite o tamanho da Área em Km: ");
+scanf("%f", &area2);
+printf("Digite o Pib: ");
+scanf("%f", &pib2);
+printf("Digite a quantidade de pontos turístico: ");
+scanf("%d", &pontosturisticos2);
+
+//Terceira carta Cidade 3
+printf("\nDigite os atributos da terceira carta: \n\n");
+printf("Cidade %c%d\n", estado1, cidade3);
+printf("Digite a quantidade da população: ");
+scanf("%f", &populacao3);
+printf("Digite o tamanho da Área em Km: ");
+scanf("%f", &area3);
+printf("Digite o Pib: ");
+scanf("%f", &pib3);
+printf("Digite a quantidade de pontos turísticoo: ");
+scanf("%d", &pontosturisticos3);
+
+//Quarta carta Cidade 4
+printf("\nDigite os atributos da quarta carta: \n\n");
+printf("Cidade %c%d\n", estado1, cidade4);
+printf("Digite a quantidade da população: ");
+scanf("%f", &populacao4);
+printf("Digite o tamanho da Área em Km: ");
+scanf("%f", &area4);
+printf("Digite o Pib: ");
+scanf("%f", &pib4);
+printf("Digite a quantidade de pontos turístico: ");
+scanf("%d", &pontosturisticos4);
+
+// Informações das cartas do primeiro Estado A com 4 Cidades*
+
+densidade1 = populacao1 / area1;
+densidade2 = populacao2 / area2;
+densidade3 = populacao3 / area3;
+densidade4 = populacao4 / area4;
+pibdividio1 = pib1 / populacao1;
+pibdividio2 = pib2 / populacao2;
+pibdividio3 =  pib3 / populacao3;
+pibdividio4 =  pib4 / populacao4;
+
+printf("\nCarta A1 >> População: %.3f - Área em Km: %.3f - Pib: %.3f - Pontos Turísticos: %d\n", populacao1, area1, pib1, pontosturisticos1);
+printf("Densidade populacional: %.3f\n", densidade1);
+printf("Pib per Capita: %.3f\n", pibdividio1);
+
+printf("\nCarta A2 >> População: %.3f - Área em Km: %.3f - Pib: %.3f - Pontos Turísticos: %d\n", populacao2, area2, pib2, pontosturisticos2);
+printf("Densidade populacional: %.3f\n", densidade2);
+printf("Pib per Capita: %.3f\n", pibdividio2);
+
+printf("\nCarta A3 >> População: %.3f - Área em Km: %.3f - Pib: %.3f - Pontos Turísticos: %d\n", populacao3, area3, pib3, pontosturisticos3);
+printf("Densidade populacional: %.3f\n", densidade3);
+printf("Pib per Capita: %.3f\n", pibdividio3);
+
+printf("\nCarta A4 >> População: %.3f - Área em Km: %.3f - Pib: %.3f - Pontos Turísticos: %d\n", populacao4, area4, pib4, pontosturisticos4);
+printf("Densidade populacional: %.3f\n", densidade4);
+printf("Pib per Capita: %.3f\n", pibdividio4);
+
+return 0;
+
+}
+
